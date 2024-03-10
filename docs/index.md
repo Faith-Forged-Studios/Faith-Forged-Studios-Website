@@ -19,15 +19,15 @@ hero:
 
 # Features section
 features:
+  - icon: ⛪
+    title: Inspired by Faith, Powered by Creativity
+    details: Combining our Christian values with unparalleled creativity to deliver impactful solutions that make a difference.
   - icon: ⚡️
-    title: Fully static yet still dynamic
-    details: Go wild with true SSG + SPA architecture. Static on page load, but engage users with 100% interactivity from there.
-  - icon: 🎉
-    title: Designed to be simplicity first
-    details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-  - icon: 🔥
-    title: Power of Vue meets Markdown
-    details: Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.
+    title: Innovative Web Solutions
+    details: Crafting cutting-edge web applications that redefine digital experiences and drive success for businesses.
+  - icon: 🛠️
+    title: Your Partner in Digital Transformation
+    details: From concept to execution, we're committed to empowering businesses with tailor-made web solutions that inspire, engage, and elevate.
 
 # Meta property
 head:
@@ -36,18 +36,18 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: Vitepress Boilerplate
+      content: Faith Forged Studios
   - - meta
     - property: og:image
-      content: https://codybontecou.com/assets/vite-logo.17e50649.svg
+      content: https://faithforgedstudios.com/Logo_NoBubs.png
   - - meta
     - name: title
-      content: Vitepress Boilerplate
+      content: Faith Forged Studos
   - - meta
     - name: twitter:card
-      content: https://codybontecou.com/assets/vite-logo.17e50649.svg
+      content: https://faithforgedstudios.com/Logo_NoBubs.png
   - - link
     - rel: icon
-      type: image/svg
-      href: logo.svg
+      type: image/png
+      href: https://faithforgedstudios.com/Logo_NoBubs.png
 ---

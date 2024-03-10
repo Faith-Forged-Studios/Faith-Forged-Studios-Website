@@ -7,7 +7,7 @@ export default {
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
-    // logo: "/logo.svg",
+    logo: "/Logo_NoBubs.png",
     // editLink: {
     //   pattern: "https://github.com/Faith-Forged-Studios/Faith-Forged-Studios-Website/edit/main/docs/:path",
     //   text: "Edit this page on GitHub",
