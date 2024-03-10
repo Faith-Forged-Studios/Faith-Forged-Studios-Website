@@ -36,7 +36,7 @@ export default {
     },
     footer: {
       message: "Released under the GNU General Public License v2.0.",
-      copyright: "Copyright © 2022-present Faith Based Studios",
+      copyright: "Copyright © 2022-present Faith Forged Studios",
     },
   },
 };
