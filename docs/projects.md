@@ -13,6 +13,6 @@ Faith Forged Studios was founded when Davidalen wanted to provide a Bible study 
 
 The SOAP Dish is a bible study application at its core. This was the first project we started and since it was originally released in 2022 it has been completly revamped and is currently in the process of yet another full rewrite with tons of new features! For a full break down of The SOAP Dish features visit the projects main page.
 
-### [Faith Hub](/projects/faith-hub)
+### [Flock](/projects/flock)
 
-Faith Hub is in its early stages of the development lifecycle. This idea started after talking with a few different staff members at various churches where all of their day to day operations were being managed in multiple platforms. For example, meetings were scheduled in outlook, rooms were booked in another application, and event registration was in yet another system.
+Flock is in its early stages of the development lifecycle. This idea started after talking with a few different staff members at various churches where all of their day to day operations were being managed in multiple platforms. For example, meetings were scheduled in outlook, rooms were booked in another application, and event registration was in yet another system.
