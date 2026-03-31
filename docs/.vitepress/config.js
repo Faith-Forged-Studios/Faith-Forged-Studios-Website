@@ -29,7 +29,7 @@ export default {
           text: "Projects",
           items: [
             { text: "The SOAP Dish", link: "/projects/the-soap-dish" },
-            { text: "Faith Hub", link: "/projects/faith-hub" },
+            { text: "Flock", link: "/projects/flock" },
           ],
         },
       ],
