@@ -87,7 +87,7 @@ Make the community your own.
 
 ## Coming Soon
 
-The SOAP Dish is under active development. Here's what's on the roadmap:
+The SOAP Dish is under development. Here's what's on the roadmap:
 
 ### 🚀 Future Releases
 
@@ -99,27 +99,6 @@ A dedicated space for longer-form team discussions and shared resources.
 
 **Live Bible Study**
 Study together in real time with your group — share discussion questions, take personal notes, and keep everyone on the same page.
-
----
-
-## Built With
-
-The SOAP Dish has been through multiple iterations as the vision has grown:
-
-- **Back End** — Express.js with TypeScript and MongoDB
-- **Front End** — Vue.js
-- **Mobile** — React Native
-- **UI Framework** — Tailwind CSS
-
----
-
-## Open Source & Contributing
-
-The SOAP Dish is open source and contributions are welcome. If you're a developer who shares the vision of making Bible study more accessible, we'd love to have you involved.
-
-- [Back End Repository](https://github.com/DavFount/soapdish_ts_be)
-- [Report a Bug](https://github.com/DavFount/soapdish_ts_be/issues)
-- [Request a Feature](https://github.com/DavFount/soapdish_ts_be/issues)
 
 ---
 
