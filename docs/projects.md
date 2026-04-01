@@ -11,7 +11,7 @@ Faith Forged Studios was founded when Davidalen wanted to provide a Bible study 
 
 ### [The SOAP Dish](/projects/the-soap-dish)
 
-The SOAP Dish is a bible study application at its core. This was the first project we started and since it was originally released in 2022 it has been completly revamped and is currently in the process of yet another full rewrite with tons of new features! For a full break down of The SOAP Dish features visit the projects main page.
+The SOAP Dish is a bible study application at its core. This was the first project we started and since it was originally released in 2022 it has been completely revamped and is currently in the process of yet another full rewrite with tons of new features! For a full break down of The SOAP Dish features visit the projects main page.
 
 ### [Flock](/projects/flock)
 

@@ -2,7 +2,7 @@ import { getSidebar } from "vitepress-plugin-auto-sidebar";
 
 export default {
   base: "/",
-  title: "Faith Forged Stduio",
+  title: "Faith Forged Studio",
   description: "Where Faith Inspires Code",
   lastUpdated: true,
   cleanUrls: true,

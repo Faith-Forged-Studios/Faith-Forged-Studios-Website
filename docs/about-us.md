@@ -4,7 +4,7 @@ outline: 'deep'
 
 # About Us
 
-Welcome to Faith Forged Studios, where faith inspires code and digital dreams become reality. We are a dedicated team of application developers and innovators commited to crafting exceptional experiences that inspire, empower, and transform.
+Welcome to Faith Forged Studios, where faith inspires code and digital dreams become reality. We are a dedicated team of application developers and innovators committed to crafting exceptional experiences that inspire, empower, and transform.
 
 ## Our Vision
 
@@ -26,7 +26,7 @@ Faith is at the core of our identity and purpose. We believe in the power of fai
 
 ### Spreading the Good News
 
-Just as we are called to love, we are also called to spread the good news of God's love and grace to the world. Through our work, we strive to be beacons of light, sharing the message of hope, redemption, and salvation with those around us. Whether through the quality of work, the integrity of our relationships, or the impact of our projects, we seek to reflect the love of Christ and share His message of love and reconcillation with all whom we encounter.
+Just as we are called to love, we are also called to spread the good news of God's love and grace to the world. Through our work, we strive to be beacons of light, sharing the message of hope, redemption, and salvation with those around us. Whether through the quality of work, the integrity of our relationships, or the impact of our projects, we seek to reflect the love of Christ and share His message of love and reconciliation with all whom we encounter.
 
 ### Integrity
 
