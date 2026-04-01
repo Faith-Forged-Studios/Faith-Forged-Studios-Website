@@ -1,5 +1,6 @@
-![Flock Logo](/flocklogo.svg)
 # Flock — Church Management, Simplified
+
+![Flock Logo](/flocklogo.svg)
 
 > Flock is a modern, cloud-based church management platform built for
 > congregations of all sizes. Manage your people, giving, events, and

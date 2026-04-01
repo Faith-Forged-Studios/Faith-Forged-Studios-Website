@@ -1,6 +1,6 @@
 # The Soap Dish
 
-![SoapDish Logo](/Logo_NoBubs.svg)
+![SoapDish Logo](/Logo_NoBubs.png)
 
 ## Description
 
