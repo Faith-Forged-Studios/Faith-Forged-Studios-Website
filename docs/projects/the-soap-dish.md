@@ -1,5 +1,7 @@
 # The Soap Dish
 
+![SoapDish Logo](/Logo_NoBubs.svg)
+
 ## Description
 
 The SOAP dish was invisioned while serving as a Middle School small group leader. With the future generations relying more and more on technology we believe that having a digital study aid would be incredibly helpful in reaching the younger generation. The SOAP Dish focues on the bible study method called SOAP which stands for Scripture, Observation, Application and Prayer.
