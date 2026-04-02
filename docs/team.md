@@ -8,16 +8,14 @@ import {
   VPTeamPage,
   VPTeamPageTitle,
   VPTeamMembers,
-  VPTeamPageSection
 } from 'vitepress/theme'
 
-const developers = [
+const members = [
     {
-        // avatar: 'https://avatars.githubusercontent.com/u/47730893?v=4',
         avatar: './df_avatar.png',
         name: 'Davidalen Fountain',
         title: 'Founder / Lead Developer',
-        desc: "Davidalen has spent his entire career in the IT Field working in the healthcare industry. In 2022 he started leading a small group for middle school students. This project started as a way to provide the younger generation a positive way to use their computers and phones.",
+        desc: "Davidalen has spent his career at the intersection of IT and healthcare, solving real problems for real people. In 2022, he turned that same passion toward the next generation, leading a small group for middle school students. What started as a side project became a calling — and the foundation for everything Faith Forged Studios creates.",
         links: [
             { icon: 'github', link: 'https://github.com/Faith-Forged-Studios' },
             { icon: 'linkedin', link: 'https://www.linkedin.com/in/davfount/'}
@@ -29,13 +27,6 @@ const developers = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>Our Team</template>
-    <template #lead></template>
   </VPTeamPageTitle>
-  <!-- <VPTeamPageSection>
-    <template #title>Developers</template>
-    <template #lead></template>
-    <template #members> -->
-     <VPTeamMembers size="medium" :members="developers" />
-    <!-- </template>
-  </VPTeamPageSection> -->
+  <VPTeamMembers size="medium" :members="members" />
 </VPTeamPage>

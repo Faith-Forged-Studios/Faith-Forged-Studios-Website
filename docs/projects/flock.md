@@ -21,6 +21,20 @@ multi-campus church of thousands, Flock scales with you.
 
 ---
 
+## Project Status
+
+Flock is currently in early development. Here's where things stand:
+
+| Milestone | Status |
+|-----------|--------|
+| Core Platform (Members, Giving, Events, Groups, Rooms, Scheduling, Reporting) | 🔵 In Development |
+| Multi-Campus Support | 🔵 In Development |
+| v1.1 — Child Check-In, Volunteer Management | ⚪ Planned |
+| v1.2 — Member Portal, Broadcast Messaging, Pledge Campaigns | ⚪ Planned |
+| v2.0 — Maintenance Tracking, Custom Reports, Mobile App | ⚪ Planned |
+
+---
+
 ## Core Features
 
 ### 🧑‍🤝‍🧑 Member Management
@@ -269,3 +283,7 @@ interfaces and complicated pricing.
 We're building Flock in the open and would love your input. If you run
 a church and want to share what your biggest pain points are, we'd love
 to hear from you.
+
+<!-- ## Get Involved
+
+Flock is being built in the open and we'd love your input. If you run a church and want to share your biggest pain points, reach out to us at [email or contact link]. -->

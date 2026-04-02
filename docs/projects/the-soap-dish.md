@@ -16,6 +16,19 @@ You can study on your own, share your insights with a team, and help spread the 
 
 ---
 
+## Project Status
+
+The SOAP Dish is currently being rebuilt from the ground up with a modernized stack and new features. Here's where things stand:
+
+| Milestone | Status |
+|-----------|--------|
+| Core Platform (SOAP Studies, Teams, Prayer Requests, Profiles) | 🟢 Active Development |
+| Live Team Chat | ⚪ Planned |
+| Team Message Board | ⚪ Planned |
+| Live Bible Study | ⚪ Planned |
+
+---
+
 ## What is SOAP?
 
 SOAP is a Bible study method that walks you through four steps for every passage you read:
@@ -107,3 +120,9 @@ Study together in real time with your group — share discussion questions, take
 The SOAP Dish was born out of a middle school small group. With younger generations spending more and more time on screens, the idea was simple — why not meet them where they are and give them a positive, faith-centered reason to pick up their phone?
 
 What started as a small proof of concept has grown into a full platform with a clear mission: make spending time in God's Word accessible, engaging, and community-driven for everyone.
+
+---
+
+<!-- ## Get Involved
+
+The SOAP Dish is open source and we'd love your input. Whether you have feature ideas, feedback on the SOAP method, or just want to follow along, reach out to us at [email or contact link] or check out the project on [GitHub](link). -->

@@ -1,4 +1,13 @@
 import DefaultTheme from "vitepress/theme";
 import "./custom.css";
+import { h } from "vue";
+import NotFound from "./NotFound.vue";
 
-export default DefaultTheme;
+export default {
+  extends: DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      "not-found": () => h(NotFound),
+    });
+  },
+};

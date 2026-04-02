@@ -2,27 +2,52 @@ import { getSidebar } from "vitepress-plugin-auto-sidebar";
 
 export default {
   base: "/",
-  title: "Faith Forged Studio",
-  description: "Where Faith Inspires Code",
+  title: "Faith Forged Studios",
+  description:
+    "A faith-driven software studio building tools that make a real difference in people's lives.",
   lastUpdated: true,
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    [
+      "link",
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+    ],
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: "https://faithforgedstudios.dev/Logo_NoBubs.png",
+      },
+    ],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    [
+      "meta",
+      {
+        name: "twitter:image",
+        content: "https://faithforgedstudios.dev/Logo_NoBubs.png",
+      },
+    ],
+  ],
   themeConfig: {
     logo: "/Logo_NoBubs.png",
-    // editLink: {
-    //   pattern: "https://github.com/Faith-Forged-Studios/Faith-Forged-Studios-Website/edit/main/docs/:path",
-    //   text: "Edit this page on GitHub",
-    // },
-    siteTitle: "Faith Forged Stduio",
+    siteTitle: "Faith Forged Studios",
     outline: "deep",
+    search: {
+      provider: "local",
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "About Us", link: "/about-us" },
       { text: "Our Team", link: "/team" },
       { text: "Projects", link: "/projects" },
+      { text: "Blog", link: "/blog/" },
+      { text: "Contact", link: "/contact" },
     ],
-    // socialLinks: [
-    //   { icon: "discord", link: "..." },
-    // ],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/Faith-Forged-Studios" },
+    ],
     sidebar: {
       "/projects": [
         {
