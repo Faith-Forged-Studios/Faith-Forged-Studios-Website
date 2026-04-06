@@ -28,7 +28,7 @@ const members = [
         desc: "As Client Liaison at Faith Forged Studios, Kimberlee pairs her extensive background in customer service with the deep empathy she gained caring for individuals with special needs. A mother of two boys, she is an adept multitasker. She also has a passion for research, happily diving down rabbit holes to solve complex problems for our clients.",
     },
     {
-        avatar: './default.jpeg',
+        avatar: './default.jpg',
         name: 'Nathaniel Rios',
         title: 'TBD',
         desc: "Bio coming soon! We can't wait to officially introduce Nathaniel Rios to the Faith Forged Studios family.",
