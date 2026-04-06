@@ -27,11 +27,33 @@ Flock is currently in early development. Here's where things stand:
 
 | Milestone | Status |
 |-----------|--------|
-| Core Platform (Members, Giving, Events, Groups, Rooms, Scheduling, Reporting) | 🔵 In Development |
-| Multi-Campus Support | 🔵 In Development |
+| Platform Foundation (Multi-Tenancy, RBAC, Authentication) | 🟢 Active Development |
+| Member Management | 🔵 Up Next |
+| Events & Attendance | ⚪ Planned |
+| Groups & Ministries | ⚪ Planned |
+| Room Booking & Facilities | ⚪ Planned |
+| Scheduling | ⚪ Planned |
+| Giving & Donations (Stripe Connect) | ⚪ Planned |
+| Reporting & Analytics | ⚪ Planned |
 | v1.1 — Child Check-In, Volunteer Management | ⚪ Planned |
 | v1.2 — Member Portal, Broadcast Messaging, Pledge Campaigns | ⚪ Planned |
 | v2.0 — Maintenance Tracking, Custom Reports, Mobile App | ⚪ Planned |
+
+---
+
+## Technology
+
+Flock is built on a modern, proven stack designed for reliability,
+performance, and a seamless user experience.
+
+| Layer | Technology |
+|-------|------------|
+| Backend | Laravel (PHP) |
+| Frontend | Vue 3 (TypeScript) |
+| Bridge | Inertia.js — server-driven SPA |
+| Database | PostgreSQL |
+| Payments | Stripe Connect via Laravel Cashier |
+| Deployment | Docker |
 
 ---
 
@@ -52,15 +74,20 @@ complete, searchable directory of every person connected to your church.
 
 ### 💛 Giving & Donations
 Flock makes generosity easy — for your members and your finance team.
-All giving flows directly to your church's own bank account. Flock never
-holds your funds.
+All giving flows directly to your church's own bank account through
+Stripe Connect. Flock never holds your funds.
 
-- Online giving via credit/debit card and ACH bank transfer
+**Online Giving**
+- Credit/debit card and ACH bank transfer via Stripe
 - One-time and recurring giving schedules
 - Donor-covers-fees option
+- Designated giving funds (General, Missions, Building Fund, and more)
+
+**Offline Giving**
 - Manual cash and check entry for Sunday offerings
 - Batch offering entry and reconciliation
-- Designated giving funds (General, Missions, Building Fund, and more)
+
+**Statements & Reporting**
 - Tax-compliant contribution statements — calendar year and fiscal year
 - Giving dashboards and fund summaries
 - Secure by design — card data never touches Flock's servers
@@ -69,7 +96,7 @@ holds your funds.
 
 ### 📅 Events & Attendance
 From Sunday services to outreach events, Flock keeps your calendar
-organised and your attendance records accurate.
+organized and your attendance records accurate.
 
 - Single and recurring event creation
 - Custom event categories
@@ -131,7 +158,7 @@ your leadership team needs to make informed decisions.
 - Member growth tracking
 - Group attendance reports
 - Schedule coverage reports
-- Customisable dashboard for every role
+- Customizable dashboard for every role
 - Export any report to CSV
 - Scheduled report delivery by email
 
@@ -139,7 +166,7 @@ your leadership team needs to make informed decisions.
 
 ### 🏢 Multi-Campus Support
 Managing more than one location? Flock treats every campus as a
-first-class part of your organisation — not an afterthought.
+first-class part of your organization — not an afterthought.
 
 - Unlimited campuses per church
 - Members, events, rooms, and groups scoped per campus
@@ -217,7 +244,7 @@ Track giving commitments and campaign progress.
 - Campaign creation with giving goal
 - Member pledge recording
 - Progress dashboards
-- Pledge fulfilment tracking
+- Pledge fulfillment tracking
 
 ---
 
@@ -243,7 +270,7 @@ Build the exact report your leadership needs — no developer required.
 - Save and share reports across your team
 
 **Mobile App (PWA)**
-A mobile-optimised experience your team can install on any device.
+A mobile-optimized experience your team can install on any device.
 - Full feature access on mobile
 - Offline support for check-in and attendance
 
@@ -258,11 +285,14 @@ finances protected at every layer.
   servers. All payments are processed through Stripe's secure
   infrastructure.
 - **Direct deposit** — giving goes straight to your church's bank
-  account. Flock never holds your funds.
+  account via Stripe Connect. Flock never holds your funds.
 - **Role-based access** — your team only sees what they need to see.
-- **Data isolation** — every church's data is fully separated. Your
-  information is never shared with or visible to other organisations.
+- **Data isolation** — every church's data is fully separated through
+  row-level tenancy. Your information is never shared with or visible
+  to other organizations.
 - **Encrypted in transit** — all data is transmitted over HTTPS.
+- **Transparent access logging** — all platform staff access to tenant
+  data is fully logged and visible to church admins.
 
 ---
 
@@ -281,9 +311,5 @@ well-designed software — not clunky legacy systems with outdated
 interfaces and complicated pricing.
 
 We're building Flock in the open and would love your input. If you run
-a church and want to share what your biggest pain points are, we'd love
-to hear from you.
-
-<!-- ## Get Involved
-
-Flock is being built in the open and we'd love your input. If you run a church and want to share your biggest pain points, reach out to us at [email or contact link]. -->
+a church and want to share what your biggest pain points are, reach out
+to us on our [Contact](/contact) page.
