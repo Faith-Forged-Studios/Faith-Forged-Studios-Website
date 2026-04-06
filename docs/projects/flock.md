@@ -25,19 +25,19 @@ multi-campus church of thousands, Flock scales with you.
 
 Flock is currently in early development. Here's where things stand:
 
-| Milestone | Status |
-|-----------|--------|
-| Platform Foundation (Multi-Tenancy, RBAC, Authentication) | 🟢 Active Development |
-| Member Management | 🔵 Up Next |
-| Events & Attendance | ⚪ Planned |
-| Groups & Ministries | ⚪ Planned |
-| Room Booking & Facilities | ⚪ Planned |
-| Scheduling | ⚪ Planned |
-| Giving & Donations (Stripe Connect) | ⚪ Planned |
-| Reporting & Analytics | ⚪ Planned |
-| v1.1 — Child Check-In, Volunteer Management | ⚪ Planned |
-| v1.2 — Member Portal, Broadcast Messaging, Pledge Campaigns | ⚪ Planned |
-| v2.0 — Maintenance Tracking, Custom Reports, Mobile App | ⚪ Planned |
+| Milestone                                                   | Status                |
+| ----------------------------------------------------------- | --------------------- |
+| Platform Foundation (Multi-Tenancy, RBAC, Authentication)   | 🟢 Completed          |
+| Member Management                                           | 🟢 Completed          |
+| Events & Attendance                                         | 🟢 Completed          |
+| Groups & Ministries                                         | 🟢 Completed          |
+| Room Booking & Facilities                                   | 🟢 Completed          |
+| Scheduling                                                  | 🟢 Active Development |
+| Giving & Donations (Stripe Connect)                         | 🔵 Up Next            |
+| Reporting & Analytics                                       | ⚪ Planned            |
+| v1.1 — Child Check-In, Volunteer Management                 | ⚪ Planned            |
+| v1.2 — Member Portal, Broadcast Messaging, Pledge Campaigns | ⚪ Planned            |
+| v2.0 — Maintenance Tracking, Custom Reports, Mobile App     | ⚪ Planned            |
 
 ---
 
@@ -46,20 +46,21 @@ Flock is currently in early development. Here's where things stand:
 Flock is built on a modern, proven stack designed for reliability,
 performance, and a seamless user experience.
 
-| Layer | Technology |
-|-------|------------|
-| Backend | Laravel (PHP) |
-| Frontend | Vue 3 (TypeScript) |
-| Bridge | Inertia.js — server-driven SPA |
-| Database | PostgreSQL |
-| Payments | Stripe Connect via Laravel Cashier |
-| Deployment | Docker |
+| Layer      | Technology                         |
+| ---------- | ---------------------------------- |
+| Backend    | Laravel (PHP)                      |
+| Frontend   | Vue 3 (TypeScript)                 |
+| Bridge     | Inertia.js — server-driven SPA     |
+| Database   | PostgreSQL                         |
+| Payments   | Stripe Connect via Laravel Cashier |
+| Deployment | Docker                             |
 
 ---
 
 ## Core Features
 
 ### 🧑‍🤝‍🧑 Member Management
+
 Your congregation is at the heart of everything. Flock gives you a
 complete, searchable directory of every person connected to your church.
 
@@ -73,21 +74,25 @@ complete, searchable directory of every person connected to your church.
 ---
 
 ### 💛 Giving & Donations
+
 Flock makes generosity easy — for your members and your finance team.
 All giving flows directly to your church's own bank account through
 Stripe Connect. Flock never holds your funds.
 
 **Online Giving**
+
 - Credit/debit card and ACH bank transfer via Stripe
 - One-time and recurring giving schedules
 - Donor-covers-fees option
 - Designated giving funds (General, Missions, Building Fund, and more)
 
 **Offline Giving**
+
 - Manual cash and check entry for Sunday offerings
 - Batch offering entry and reconciliation
 
 **Statements & Reporting**
+
 - Tax-compliant contribution statements — calendar year and fiscal year
 - Giving dashboards and fund summaries
 - Secure by design — card data never touches Flock's servers
@@ -95,6 +100,7 @@ Stripe Connect. Flock never holds your funds.
 ---
 
 ### 📅 Events & Attendance
+
 From Sunday services to outreach events, Flock keeps your calendar
 organized and your attendance records accurate.
 
@@ -108,6 +114,7 @@ organized and your attendance records accurate.
 ---
 
 ### 👥 Groups & Ministries
+
 Every church runs on its groups. Flock makes it easy to manage every
 ministry team, small group, and committee under one roof.
 
@@ -122,6 +129,7 @@ ministry team, small group, and committee under one roof.
 ---
 
 ### 🏛️ Room Booking & Facility Management
+
 Stop the double-booking chaos. Flock gives you a clear picture of every
 space in your building and who has it when.
 
@@ -135,6 +143,7 @@ space in your building and who has it when.
 ---
 
 ### 🗓️ Scheduling
+
 Coordinating who serves where on Sunday shouldn't take hours. Flock
 makes service and event scheduling fast, clear, and conflict-free.
 
@@ -150,6 +159,7 @@ makes service and event scheduling fast, clear, and conflict-free.
 ---
 
 ### 📊 Reporting & Analytics
+
 The numbers that matter, when you need them. Flock surfaces the insights
 your leadership team needs to make informed decisions.
 
@@ -165,6 +175,7 @@ your leadership team needs to make informed decisions.
 ---
 
 ### 🏢 Multi-Campus Support
+
 Managing more than one location? Flock treats every campus as a
 first-class part of your organization — not an afterthought.
 
@@ -176,6 +187,7 @@ first-class part of your organization — not an afterthought.
 ---
 
 ### 🔒 Roles & Permissions
+
 Not everyone needs access to everything. Flock's role system keeps
 sensitive data safe while giving your team the access they need.
 
@@ -187,6 +199,7 @@ sensitive data safe while giving your team the access they need.
 ---
 
 ### 📧 Notifications & Communication
+
 Flock keeps your team informed automatically — no manual chasing
 required.
 
@@ -204,8 +217,10 @@ Flock is under active development. Here's what's on the roadmap after
 launch:
 
 ### 🚀 Version 1.1
+
 **Child Check-In**
 A secure, streamlined check-in system for children's ministry.
+
 - Child profiles linked to family households
 - Guardian authorization lists
 - Self check-in kiosk mode
@@ -215,6 +230,7 @@ A secure, streamlined check-in system for children's ministry.
 
 **Volunteer Management**
 Everything you need to recruit, coordinate, and retain your volunteers.
+
 - Volunteer profiles with skill tags
 - Volunteer hours tracking
 - Onboarding status (background check, training completion)
@@ -223,8 +239,10 @@ Everything you need to recruit, coordinate, and retain your volunteers.
 ---
 
 ### 🚀 Version 1.2
+
 **Member Self-Service Portal**
 Give your members a place to manage their own information.
+
 - View and update personal profile
 - View giving history and download contribution statements
 - Event registration and RSVP
@@ -232,6 +250,7 @@ Give your members a place to manage their own information.
 
 **Broadcast Communication**
 Reach your whole congregation or targeted groups with one message.
+
 - Email broadcasts to all members, a campus, or a specific group
 - SMS messaging via Twilio
 - Message templates
@@ -241,6 +260,7 @@ Reach your whole congregation or targeted groups with one message.
 
 **Pledge Campaigns**
 Track giving commitments and campaign progress.
+
 - Campaign creation with giving goal
 - Member pledge recording
 - Progress dashboards
@@ -249,9 +269,11 @@ Track giving commitments and campaign progress.
 ---
 
 ### 🚀 Version 2.0
+
 **Facility Maintenance Tracking**
 Keep your building in good shape with a simple maintenance request
 and tracking system.
+
 - Maintenance request submission
 - Priority levels and status tracking
 - Assignment to staff or external vendor
@@ -260,17 +282,20 @@ and tracking system.
 - Photo attachments
 
 **Online Giving Enhancements**
+
 - Giving kiosk mode for in-church use
 - Text-to-give
 
 **Custom Report Builder**
 Build the exact report your leadership needs — no developer required.
+
 - Drag-and-drop report builder
 - Custom date ranges, filters, and groupings
 - Save and share reports across your team
 
 **Mobile App (PWA)**
 A mobile-optimized experience your team can install on any device.
+
 - Full feature access on mobile
 - Offline support for check-in and attendance
 
