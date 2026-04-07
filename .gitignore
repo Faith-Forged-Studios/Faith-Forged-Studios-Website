@@ -14,5 +14,3 @@ examples-temp
 node_modules
 pnpm-global
 TODOs.md
-package-lock.json
-pnpm-lock.yaml
