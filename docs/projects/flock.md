@@ -32,9 +32,10 @@ Flock is currently in early development. Here's where things stand:
 | Events & Attendance                                         | 🟢 Completed          |
 | Groups & Ministries                                         | 🟢 Completed          |
 | Room Booking & Facilities                                   | 🟢 Completed          |
-| Scheduling                                                  | 🟢 Active Development |
-| Giving & Donations (Stripe Connect)                         | 🔵 Up Next            |
-| Reporting & Analytics                                       | ⚪ Planned            |
+| Scheduling                                                  | 🟢 Completed          |
+| Giving & Donations (Stripe Connect)                         | 🟢 Active Development |
+| Reporting & Analytics                                       | 🟢 Active Development |
+| Revamp RBAC to Customizable Permission System               | 🔵 Up Next            |
 | v1.1 — Child Check-In, Volunteer Management                 | ⚪ Planned            |
 | v1.2 — Member Portal, Broadcast Messaging, Pledge Campaigns | ⚪ Planned            |
 | v2.0 — Maintenance Tracking, Custom Reports, Mobile App     | ⚪ Planned            |
